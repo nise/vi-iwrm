@@ -1,0 +1,193 @@
+/* add styles here */
+@CHARSET "UTF-8"; 
+body {
+	font-family: arial;
+	font-size: 10pt;
+	padding: 0;
+	margin: 0; 
+}
+#container {
+	display: block;
+	height:450px;
+	margin:20px; 
+	background-color: #fff;
+} 
+
+.header {
+	min-height:18px;
+	padding:6px 2px 6px 6px;
+	background-color: #EEEEEE; 
+	border-bottom:2px solid #DEDEDE;
+	border-top:3px solid #AAAAAA;	
+}
+
+
+/*UPLOAD***********************************************/
+div#uploadcontainer{
+
+}
+.ul-form{
+
+}
+.ul-meta input{
+	display:inline;
+}
+
+/*LIST ***********************************************/
+td { vertical-align:top; }
+
+ul#list-video{
+	width: 970px;
+	list-style: none;
+	padding: 4px 0 0 20px;
+}
+ul#list-video > li{
+	margin-bottom:60px;
+}
+ul#list-video > li > h3{
+	font-size:20px;
+	color:blue;
+	margin: 0 0 2px 0;
+}
+.litem-publisher {
+	display: inline;
+	margin: 0 10px 0 0;
+}
+.litem-date {
+	display: inline;
+}
+
+.litem-rating {
+	display: inline;
+	float: right;
+	width: 50px;
+	margin: 0 650px 0 0;
+}
+.litem-video {
+	display:block;
+	width:540px;
+	margin-top:4px;
+}
+.litem-category {
+	margin: 0 0 0 10px;
+	font-weight: bold;
+	font-size:14px;
+}
+.litem-tags {
+	margin: 30px 0 0 10px;
+}
+ul#tagList {padding:0;margin:0;}
+ul#tagList li { list-style-type:none; display:inline;}
+ul#tagList li a { text-decoration:none;}
+ul#tagList li a:hover { text-decoration:underline; }
+
+span.timetag{
+	background: url(../img/tag.png) no-repeat 0px 10px #535353;
+	position: absolute; display: block; width: 10px; height: 20px; left:0; margin: 0; padding: 0;
+}
+
+.litem-activity {
+	position:absolute;	
+	display:block;
+	float:right;
+	height: 64px; width: 300px;
+	border: solid 1px grey;
+	margin: 200px 0 0 650px;
+}
+.litem-feeds {
+
+}
+.litem-download {
+
+}
+
+.dropdown {
+	display:inline; 
+	width:400px;
+	height:20px;
+}
+
+.dropdown h4 {
+margin:0; position:relative; display:inline;
+}
+
+/************************************************/
+table > tr > td {
+	display:block;
+	width:500px;
+		position: absolute;
+}
+
+#screen {
+	position: absolute;
+}
+
+#screen #overlay{
+	background-color: #fff;
+	padding:0px;
+	z-index:0;
+	position: absolute;
+	border: 1px solid #ccc;
+	top: 0px;
+	left: 0px;
+	cursor:pointer;
+}
+
+/** hyperlink design ***/
+.overlay {
+	background-color: #fff;
+	padding: 3px;
+		opacity: 0.5;
+}
+
+#screen #video1{
+	padding:0px;
+	z-index:4;
+}
+
+.edit{
+	display:block;
+	width:500px;
+	margin:0;
+	padding:5px;
+	background-color:#ccc;
+}
+
+textarea{
+	height:200px;
+	width:400px;
+	font-size:14px;
+	border:0;
+	margin:20px;
+	background-color:#eee;
+}
+
+/*************************************************/
+.pieContextMenu {
+		display: none;
+		list-style-type: none;
+		position: absolute;
+		margin:0px;
+		padding:0px;
+		z-index: 2000;
+	}
+	
+.screen{
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:#000;
+	opacity: 0.5;
+	margin:10px;
+	padding:10px;
+	text-align:left;
+	color:#fff;
+}
+.close-btn {
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+}
+
+
